@@ -12,7 +12,7 @@ public class Plugin : BaseUnityPlugin
         
     private void Awake()
     {
-        Logger.LogInfo($"Plugin {PluginInfo.PLUGIN_GUID} is loaded!");
+        Logger.LogInfo($"Plugin {Guid} is loaded!");
         Debug.unityLogger.logEnabled = false;
         Logger.LogWarning("Unity logger is turned off now!");
     }
